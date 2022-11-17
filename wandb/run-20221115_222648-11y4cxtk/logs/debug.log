@@ -1,0 +1,33 @@
+2022-11-15 22:26:48,889 INFO    MainThread:6488 [wandb_setup.py:_flush():68] Configure stats pid to 6488
+2022-11-15 22:26:48,889 INFO    MainThread:6488 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Cliente\.config\wandb\settings
+2022-11-15 22:26:48,889 INFO    MainThread:6488 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\settings
+2022-11-15 22:26:48,889 INFO    MainThread:6488 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-15 22:26:48,889 INFO    MainThread:6488 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'deepseatreasure-pareto\\agent.py', 'program': 'agent.py'}
+2022-11-15 22:26:48,892 INFO    MainThread:6488 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221115_222648-11y4cxtk\logs\debug.log
+2022-11-15 22:26:48,892 INFO    MainThread:6488 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221115_222648-11y4cxtk\logs\debug-internal.log
+2022-11-15 22:26:48,892 INFO    MainThread:6488 [wandb_init.py:init():516] calling init triggers
+2022-11-15 22:26:48,893 INFO    MainThread:6488 [wandb_init.py:init():520] wandb.init called with sweep_config: {}
+config: {}
+2022-11-15 22:26:48,893 INFO    MainThread:6488 [wandb_init.py:init():569] starting backend
+2022-11-15 22:26:48,893 INFO    MainThread:6488 [wandb_init.py:init():573] setting up manager
+2022-11-15 22:26:48,895 INFO    MainThread:6488 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2022-11-15 22:26:48,899 INFO    MainThread:6488 [wandb_init.py:init():580] backend started and connected
+2022-11-15 22:26:48,900 INFO    MainThread:6488 [wandb_init.py:init():658] updated telemetry
+2022-11-15 22:26:48,947 INFO    MainThread:6488 [wandb_init.py:init():694] communicating run to backend with 60 second timeout
+2022-11-15 22:26:49,527 INFO    MainThread:6488 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-15 22:26:49,676 INFO    MainThread:6488 [wandb_run.py:_on_init():2004] got version response 
+2022-11-15 22:26:49,677 INFO    MainThread:6488 [wandb_init.py:init():728] starting run threads in backend
+2022-11-15 22:26:50,348 INFO    MainThread:6488 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-15 22:26:50,348 INFO    MainThread:6488 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-15 22:26:50,348 INFO    MainThread:6488 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-15 22:26:50,348 INFO    MainThread:6488 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-15 22:26:50,349 INFO    MainThread:6488 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-15 22:26:50,349 INFO    MainThread:6488 [wandb_run.py:_tensorboard_callback():1296] tensorboard callback: pql, True
+2022-11-15 22:26:50,775 INFO    MainThread:6488 [wandb_run.py:_config_callback():1160] config_cb ('_wandb', 'visualize', 'my_custom_plot_id') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Custom Y vs X Scatter Plot'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'my_custom_plot_id_table'}], 'fields': []}]}]}}} None
+2022-11-15 22:26:51,588 INFO    MainThread:6488 [wandb_run.py:_finish():1746] finishing run giovanicenta/PQL/11y4cxtk
+2022-11-15 22:26:51,588 INFO    MainThread:6488 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-15 22:26:51,588 INFO    MainThread:6488 [wandb_run.py:_restore():1932] restore
+2022-11-15 22:26:51,588 INFO    MainThread:6488 [wandb_run.py:_restore():1938] restore done
+2022-11-15 22:27:07,194 INFO    MainThread:6488 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-15 22:27:07,195 INFO    MainThread:6488 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-15 22:27:07,209 INFO    MainThread:6488 [wandb_run.py:_footer_sync_info():3333] logging synced files

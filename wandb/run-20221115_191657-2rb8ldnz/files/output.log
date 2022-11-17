@@ -1,0 +1,79 @@
+-> Training started <-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\import_hooks.py:246: DeprecationWarning: Deprecated since Python 3.4. Use importlib.util.find_spec() instead.
+  loader = importlib.find_loader(fullname, path)
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\gym\utils\seeding.py:96: DeprecationWarning: [33mWARN: Function `rng.seed(seed)` is marked as deprecated and will be removed in the future. Please use `rng, seed = gym.utils.seeding.np_random(seed)` to create a separate generator instead.
+  "Function `rng.seed(seed)` is marked as deprecated "
+agent.py:150: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return np.array(q_set)
+Traceback (most recent call last):
+  File "agent.py", line 219, in <module>
+    agent.train(2000,400)
+  File "agent.py", line 79, in train
+    s,terminal,reward = self.step(s)
+  File "agent.py", line 128, in step
+    nd = self.update_non_dominated(s, action, next_s)
+  File "agent.py", line 154, in update_non_dominated
+    q_set_n = self.compute_q_set(next_state)
+  File "agent.py", line 145, in compute_q_set
+    nd_sa = self.non_dominated[s][a]
+IndexError: list index out of range

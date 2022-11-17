@@ -1,0 +1,245 @@
+2022-11-17 15:52:37,726 INFO    StreamThr :13316 [internal.py:wandb_internal():91] W&B internal server running at pid: 13316, started at: 2022-11-17 15:52:37.725384
+2022-11-17 15:52:37,729 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: status
+2022-11-17 15:52:37,731 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: status
+2022-11-17 15:52:37,734 DEBUG   SenderThread:13316 [sender.py:send():303] send: header
+2022-11-17 15:52:37,734 INFO    WriterThread:13316 [datastore.py:open_for_write():75] open: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\run-199qevg9.wandb
+2022-11-17 15:52:37,775 DEBUG   SenderThread:13316 [sender.py:send():303] send: run
+2022-11-17 15:52:38,481 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: check_version
+2022-11-17 15:52:38,488 INFO    SenderThread:13316 [dir_watcher.py:__init__():216] watching files in: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files
+2022-11-17 15:52:38,489 INFO    SenderThread:13316 [sender.py:_start_run_threads():931] run started: 199qevg9 with start time 1668711157.723388
+2022-11-17 15:52:38,489 DEBUG   SenderThread:13316 [sender.py:send():303] send: summary
+2022-11-17 15:52:38,489 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 15:52:38,490 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: check_version
+2022-11-17 15:52:38,705 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: run_start
+2022-11-17 15:52:38,726 DEBUG   HandlerThread:13316 [system_info.py:__init__():31] System info init
+2022-11-17 15:52:38,726 DEBUG   HandlerThread:13316 [system_info.py:__init__():46] System info init done
+2022-11-17 15:52:38,726 INFO    HandlerThread:13316 [system_monitor.py:start():150] Starting system monitor
+2022-11-17 15:52:38,727 INFO    SystemMonitor:13316 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-17 15:52:38,727 INFO    HandlerThread:13316 [system_monitor.py:probe():168] Collecting system info
+2022-11-17 15:52:38,730 INFO    SystemMonitor:13316 [interfaces.py:start():168] Started cpu
+2022-11-17 15:52:38,730 INFO    SystemMonitor:13316 [interfaces.py:start():168] Started disk
+2022-11-17 15:52:38,730 INFO    SystemMonitor:13316 [interfaces.py:start():168] Started gpu
+2022-11-17 15:52:38,731 INFO    SystemMonitor:13316 [interfaces.py:start():168] Started memory
+2022-11-17 15:52:38,739 INFO    SystemMonitor:13316 [interfaces.py:start():168] Started network
+2022-11-17 15:52:38,751 DEBUG   HandlerThread:13316 [system_info.py:probe():195] Probing system
+2022-11-17 15:52:38,753 DEBUG   HandlerThread:13316 [system_info.py:_probe_git():180] Probing git
+2022-11-17 15:52:38,840 DEBUG   HandlerThread:13316 [system_info.py:_probe_git():188] Probing git done
+2022-11-17 15:52:38,840 DEBUG   HandlerThread:13316 [system_info.py:probe():241] Probing system done
+2022-11-17 15:52:38,840 DEBUG   HandlerThread:13316 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.3', 'heartbeatAt': '2022-11-17T18:52:38.751250', 'startedAt': '2022-11-17T18:52:37.708427', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'agent.py', 'codePath': 'deepseatreasure-pareto\\agent.py', 'git': {'remote': 'https://github.com/GiovaniCenta/MOparetoQlearning-baseline/', 'commit': '036bb910ac20abf7f031e4ffcb851c9dee369eb6'}, 'email': 'geeowdk@gmail.com', 'root': 'C:/Users/Cliente/Documents/bolsa/ultimo funcional/MOparetoQlearning-baseline', 'host': 'pcgio', 'username': 'Cliente', 'executable': 'C:\\Users\\Cliente\\AppData\\Local\\Programs\\Python\\Python37\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 6, 'cpu_freq': {'current': 2808.0, 'min': 0.0, 'max': 2808.0}, 'cpu_freq_per_core': [{'current': 2808.0, 'min': 0.0, 'max': 2808.0}], 'disk': {'total': 110.63346481323242, 'used': 107.59231948852539}, 'gpu': 'NVIDIA GeForce GTX 1660 SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1660 SUPER', 'memory_total': 6442450944}], 'memory': {'total': 15.93344497680664}}
+2022-11-17 15:52:38,840 INFO    HandlerThread:13316 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-17 15:52:38,840 INFO    HandlerThread:13316 [system_monitor.py:probe():181] Publishing system info
+2022-11-17 15:52:38,840 DEBUG   HandlerThread:13316 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2022-11-17 15:52:38,841 DEBUG   HandlerThread:13316 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-17 15:52:38,841 DEBUG   HandlerThread:13316 [system_info.py:_save_code():89] Saving code
+2022-11-17 15:52:38,885 DEBUG   HandlerThread:13316 [system_info.py:_save_code():110] Saving code done
+2022-11-17 15:52:38,885 DEBUG   HandlerThread:13316 [system_info.py:_save_patches():127] Saving git patches
+2022-11-17 15:52:39,313 DEBUG   HandlerThread:13316 [system_info.py:_save_patches():169] Saving git patches done
+2022-11-17 15:52:39,314 INFO    HandlerThread:13316 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-17 15:52:39,396 DEBUG   SenderThread:13316 [sender.py:send():303] send: files
+2022-11-17 15:52:39,396 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-17 15:52:39,397 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file code\deepseatreasure-pareto\agent.py with policy now
+2022-11-17 15:52:39,397 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file diff.patch with policy now
+2022-11-17 15:52:39,413 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 15:52:39,413 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 15:52:39,416 INFO    HandlerThread:13316 [handler.py:handle_tbrecord():724] handling tbrecord: tbrecord {
+  log_dir: "pql"
+  save: true
+}
+control {
+  relay_id: "3121b74f8a8446428d4143cd08efb2c2"
+}
+_info {
+  stream_id: "199qevg9"
+}
+
+2022-11-17 15:52:39,417 DEBUG   HandlerThread:13316 [config_util.py:dict_from_config_file():100] no default config file found in config-defaults.yaml
+2022-11-17 15:52:39,461 DEBUG   Thread-38 :13316 [tb_watcher.py:_process_events():274] Encountered tensorboard directory watcher error: symbolic link privilege not held
+2022-11-17 15:52:39,504 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-summary.json
+2022-11-17 15:52:39,504 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\code\deepseatreasure-pareto\agent.py
+2022-11-17 15:52:39,504 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-metadata.json
+2022-11-17 15:52:39,504 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\diff.patch
+2022-11-17 15:52:39,505 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\requirements.txt
+2022-11-17 15:52:39,505 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\code
+2022-11-17 15:52:39,505 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\code\deepseatreasure-pareto
+2022-11-17 15:52:39,750 DEBUG   SenderThread:13316 [sender.py:send():303] send: telemetry
+2022-11-17 15:52:39,750 DEBUG   SenderThread:13316 [sender.py:send():303] send: tbrecord
+2022-11-17 15:52:39,751 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:52:39,751 WARNING SenderThread:13316 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-11-17 15:52:39,751 DEBUG   SenderThread:13316 [sender.py:send():303] send: telemetry
+2022-11-17 15:52:39,774 INFO    Thread-36 :13316 [upload_job.py:push():123] Skipped uploading C:\Users\Cliente\AppData\Local\Temp\tmp0f3n3ufvwandb\3kw1t0w5-code/deepseatreasure-pareto/agent.py
+2022-11-17 15:52:40,299 INFO    Thread-34 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\AppData\Local\Temp\tmp0f3n3ufvwandb\22s175e0-wandb-metadata.json
+2022-11-17 15:52:40,367 INFO    Thread-37 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\AppData\Local\Temp\tmp0f3n3ufvwandb\ei6qsj6v-diff.patch
+2022-11-17 15:52:40,512 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:52:42,533 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:52:50,601 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:52:52,622 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:52:54,652 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:52:54,756 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 15:52:54,756 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 15:52:56,661 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:52:58,689 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:00,701 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:02,717 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:04,731 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:06,742 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:08,764 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\config.yaml
+2022-11-17 15:53:08,764 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:10,102 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 15:53:10,103 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 15:53:10,584 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: history
+2022-11-17 15:53:10,585 DEBUG   SenderThread:13316 [sender.py:send():303] send: summary
+2022-11-17 15:53:10,586 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 15:53:10,661 DEBUG   SenderThread:13316 [sender.py:send():303] send: config
+2022-11-17 15:53:10,777 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-summary.json
+2022-11-17 15:53:10,777 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:11,042 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: log_artifact
+2022-11-17 15:53:11,042 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: log_artifact
+2022-11-17 15:53:11,731 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-17 15:53:11,783 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\media\table\my_custom_plot_id_table_1_3bf76b4724a8d52f8038.table.json
+2022-11-17 15:53:11,783 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\media\table
+2022-11-17 15:53:11,783 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\media
+2022-11-17 15:53:12,743 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-17 15:53:12,792 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:13,443 INFO    Thread-40 :13316 [upload_job.py:push():101] Uploaded file C:\Users\Cliente\.cache\wandb\artifacts\obj\md5\93\0f05a6d60639095ff7cec09c4d581f
+2022-11-17 15:53:14,821 INFO    SenderThread:13316 [sender.py:send_request_log_artifact():1222] logged artifact run-199qevg9-my_custom_plot_id_table - {'id': 'QXJ0aWZhY3Q6MjgyMTczMTQ5', 'digest': '7263b26d280f0806bfad4fdb5f46ea0e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1NTA3NzMw', 'latestArtifact': None}, 'version': 'latest'}
+2022-11-17 15:53:14,821 DEBUG   SenderThread:13316 [sender.py:send():303] send: files
+2022-11-17 15:53:14,821 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file media\table\my_custom_plot_id_table_1_3bf76b4724a8d52f8038.table.json with policy now
+2022-11-17 15:53:14,822 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,822 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,822 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: metric
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: history
+2022-11-17 15:53:14,823 DEBUG   SenderThread:13316 [sender.py:send():303] send: summary
+2022-11-17 15:53:14,825 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 15:53:14,825 DEBUG   SenderThread:13316 [sender.py:send():303] send: telemetry
+2022-11-17 15:53:14,825 DEBUG   SenderThread:13316 [sender.py:send():303] send: exit
+2022-11-17 15:53:14,825 INFO    SenderThread:13316 [sender.py:send_exit():442] handling exit code: 0
+2022-11-17 15:53:14,826 INFO    SenderThread:13316 [sender.py:send_exit():444] handling runtime: 33
+2022-11-17 15:53:14,826 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 15:53:14,829 INFO    SenderThread:13316 [sender.py:send_exit():450] send defer
+2022-11-17 15:53:14,829 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: poll_exit
+2022-11-17 15:53:14,829 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:14,829 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-17 15:53:14,829 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:14,829 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-17 15:53:14,829 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 1
+2022-11-17 15:53:14,830 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:14,830 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-17 15:53:14,830 INFO    HandlerThread:13316 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-17 15:53:14,830 DEBUG   SystemMonitor:13316 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-17 15:53:14,831 DEBUG   SystemMonitor:13316 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-17 15:53:14,831 DEBUG   SystemMonitor:13316 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-17 15:53:14,836 INFO    HandlerThread:13316 [interfaces.py:finish():173] Joined cpu
+2022-11-17 15:53:14,837 INFO    HandlerThread:13316 [interfaces.py:finish():173] Joined disk
+2022-11-17 15:53:14,862 INFO    HandlerThread:13316 [interfaces.py:finish():173] Joined gpu
+2022-11-17 15:53:14,862 INFO    HandlerThread:13316 [interfaces.py:finish():173] Joined memory
+2022-11-17 15:53:14,863 INFO    HandlerThread:13316 [interfaces.py:finish():173] Joined network
+2022-11-17 15:53:14,863 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:14,863 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-17 15:53:14,863 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 2
+2022-11-17 15:53:14,863 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:14,863 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-17 15:53:14,864 DEBUG   SenderThread:13316 [sender.py:send():303] send: stats
+2022-11-17 15:53:14,864 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:14,864 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-17 15:53:14,864 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 3
+2022-11-17 15:53:14,864 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:14,864 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-17 15:53:15,775 INFO    Thread-41 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\AppData\Local\Temp\tmp0f3n3ufvwandb\g5d7myql-media/table/my_custom_plot_id_table_1_3bf76b4724a8d52f8038.table.json
+2022-11-17 15:53:15,815 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-summary.json
+2022-11-17 15:53:20,836 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-17 15:53:20,836 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:20,836 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-17 15:53:20,836 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 4
+2022-11-17 15:53:20,837 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:20,837 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-17 15:53:20,837 DEBUG   SenderThread:13316 [sender.py:send():303] send: summary
+2022-11-17 15:53:20,839 INFO    SenderThread:13316 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 15:53:20,839 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:20,839 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-17 15:53:20,840 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 5
+2022-11-17 15:53:20,840 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:20,840 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-17 15:53:20,840 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:20,840 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-17 15:53:20,869 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-summary.json
+2022-11-17 15:53:21,234 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 6
+2022-11-17 15:53:21,234 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:21,234 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-17 15:53:21,234 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:21,234 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-17 15:53:21,872 INFO    Thread-17 :13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\config.yaml
+2022-11-17 15:53:22,042 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 7
+2022-11-17 15:53:22,042 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:22,043 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-17 15:53:22,043 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:22,043 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-17 15:53:22,043 INFO    SenderThread:13316 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-17 15:53:22,829 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-17 15:53:22,877 INFO    SenderThread:13316 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:22,878 INFO    SenderThread:13316 [dir_watcher.py:finish():392] scan: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files
+2022-11-17 15:53:22,879 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\config.yaml config.yaml
+2022-11-17 15:53:22,879 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\diff.patch diff.patch
+2022-11-17 15:53:22,879 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log output.log
+2022-11-17 15:53:22,879 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\requirements.txt requirements.txt
+2022-11-17 15:53:22,885 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-metadata.json wandb-metadata.json
+2022-11-17 15:53:22,885 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-summary.json wandb-summary.json
+2022-11-17 15:53:22,891 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\code\deepseatreasure-pareto\agent.py code\deepseatreasure-pareto\agent.py
+2022-11-17 15:53:22,891 INFO    SenderThread:13316 [dir_watcher.py:finish():406] scan save: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\media\table\my_custom_plot_id_table_1_3bf76b4724a8d52f8038.table.json media\table\my_custom_plot_id_table_1_3bf76b4724a8d52f8038.table.json
+2022-11-17 15:53:22,892 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 8
+2022-11-17 15:53:22,892 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:22,892 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-17 15:53:22,892 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:22,892 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-17 15:53:22,892 INFO    SenderThread:13316 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-17 15:53:23,768 INFO    Thread-42 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\config.yaml
+2022-11-17 15:53:23,819 INFO    Thread-45 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\wandb-summary.json
+2022-11-17 15:53:23,839 INFO    Thread-43 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\output.log
+2022-11-17 15:53:23,841 INFO    Thread-44 :13316 [upload_job.py:push():143] Uploaded file C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\files\requirements.txt
+2022-11-17 15:53:24,055 INFO    Thread-16 :13316 [sender.py:transition_state():463] send defer: 9
+2022-11-17 15:53:24,055 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:24,055 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-17 15:53:24,055 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:24,055 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-17 15:53:24,055 INFO    SenderThread:13316 [file_pusher.py:join():173] waiting for file pusher
+2022-11-17 15:53:24,056 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 10
+2022-11-17 15:53:24,056 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:24,056 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-17 15:53:24,056 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:24,056 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-17 15:53:24,256 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 11
+2022-11-17 15:53:24,256 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:24,256 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-17 15:53:24,257 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:24,257 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-17 15:53:24,257 INFO    SenderThread:13316 [sender.py:transition_state():463] send defer: 12
+2022-11-17 15:53:24,257 DEBUG   SenderThread:13316 [sender.py:send():303] send: final
+2022-11-17 15:53:24,257 DEBUG   SenderThread:13316 [sender.py:send():303] send: footer
+2022-11-17 15:53:24,257 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 15:53:24,258 INFO    HandlerThread:13316 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-17 15:53:24,258 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: defer
+2022-11-17 15:53:24,258 INFO    SenderThread:13316 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-17 15:53:24,259 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-17 15:53:24,259 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: server_info
+2022-11-17 15:53:24,259 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-17 15:53:24,259 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: poll_exit
+2022-11-17 15:53:24,260 DEBUG   SenderThread:13316 [sender.py:send_request():317] send_request: server_info
+2022-11-17 15:53:24,261 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-17 15:53:24,605 DEBUG   HandlerThread:13316 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-17 15:53:24,605 INFO    HandlerThread:13316 [handler.py:finish():814] shutting down handler
+2022-11-17 15:53:25,266 INFO    WriterThread:13316 [datastore.py:close():279] close: C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\wandb\run-20221117_155237-199qevg9\run-199qevg9.wandb
+2022-11-17 15:53:25,610 INFO    SenderThread:13316 [sender.py:finish():1331] shutting down sender
+2022-11-17 15:53:25,610 INFO    SenderThread:13316 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-17 15:53:25,610 INFO    SenderThread:13316 [file_pusher.py:join():173] waiting for file pusher
+2022-11-17 15:53:42,965 INFO    MainThread:13316 [internal.py:handle_exit():78] Internal process exited

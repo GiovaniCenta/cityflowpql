@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.3",
+    "heartbeatAt": "2022-11-16T01:28:34.879255",
+    "startedAt": "2022-11-16T01:28:34.035535",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "agent.py",
+    "codePath": "deepseatreasure-pareto\\agent.py",
+    "git": {
+        "remote": "https://github.com/GiovaniCenta/MOparetoQlearning-baseline/",
+        "commit": "036bb910ac20abf7f031e4ffcb851c9dee369eb6"
+    },
+    "email": "geeowdk@gmail.com",
+    "root": "C:/Users/Cliente/Documents/bolsa/ultimo funcional/MOparetoQlearning-baseline",
+    "host": "pcgio",
+    "username": "Cliente",
+    "executable": "C:\\Users\\Cliente\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 2808.0,
+        "min": 0.0,
+        "max": 2808.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2808.0,
+            "min": 0.0,
+            "max": 2808.0
+        }
+    ],
+    "disk": {
+        "total": 110.63346481323242,
+        "used": 107.60833358764648
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 SUPER",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.93344497680664
+    }
+}

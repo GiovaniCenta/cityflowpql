@@ -1,0 +1,20 @@
+-> Training started <-
+0.999
+0.998001
+0.997002999
+0.996005996001
+0.995009990004999
+0.994014980014994
+0.993020965034979
+0.9920279440699441
+0.9910359161258742
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\import_hooks.py:246: DeprecationWarning: Deprecated since Python 3.4. Use importlib.util.find_spec() instead.
+  loader = importlib.find_loader(fullname, path)
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\gym\utils\seeding.py:96: DeprecationWarning: [33mWARN: Function `rng.seed(seed)` is marked as deprecated and will be removed in the future. Please use `rng, seed = gym.utils.seeding.np_random(seed)` to create a separate generator instead.
+  "Function `rng.seed(seed)` is marked as deprecated "
+Traceback (most recent call last):
+  File "agent.py", line 217, in <module>
+    agent.train(2000,400)
+  File "agent.py", line 96, in train
+    wandb.log(log_dict)
+NameError: name 'wandb' is not defined

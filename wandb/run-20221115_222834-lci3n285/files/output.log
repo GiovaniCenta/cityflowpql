@@ -1,0 +1,59 @@
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\import_hooks.py:246: DeprecationWarning: Deprecated since Python 3.4. Use importlib.util.find_spec() instead.
+  loader = importlib.find_loader(fullname, path)
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\gym\utils\seeding.py:96: DeprecationWarning: [33mWARN: Function `rng.seed(seed)` is marked as deprecated and will be removed in the future. Please use `rng, seed = gym.utils.seeding.np_random(seed)` to create a separate generator instead.
+  "Function `rng.seed(seed)` is marked as deprecated "
+agent.py:262: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return np.array(q_set)
+-> Training started <-
+(50, 121, 4, 2)
+-> Pareto Training started <-
+Pareto ep:0
+Pareto ep:1
+Pareto ep:2
+Pareto ep:3
+Pareto ep:4
+Pareto ep:5
+Pareto ep:6
+Pareto ep:7
+Pareto ep:8
+Pareto ep:9
+Pareto ep:10
+Pareto ep:11
+Pareto ep:12
+Pareto ep:13
+Pareto ep:14
+Pareto ep:15
+Pareto ep:16
+Pareto ep:17
+Pareto ep:18
+Pareto ep:19
+Pareto ep:20
+Pareto ep:21
+Pareto ep:22
+Pareto ep:23
+Pareto ep:24
+Pareto ep:25
+Pareto ep:26
+Pareto ep:27
+Pareto ep:28
+Pareto ep:29
+Pareto ep:30
+Pareto ep:31
+Pareto ep:32
+Pareto ep:33
+Pareto ep:34
+Pareto ep:35
+Pareto ep:36
+Pareto ep:37
+Pareto ep:38
+Pareto ep:39
+Pareto ep:40
+Pareto ep:41
+Pareto ep:42
+Pareto ep:43
+Pareto ep:44
+Pareto ep:45
+Pareto ep:46
+Pareto ep:47
+Pareto ep:48
+Pareto ep:49

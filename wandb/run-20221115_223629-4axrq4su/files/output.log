@@ -1,0 +1,18 @@
+
+-> Training started <-
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\import_hooks.py:246: DeprecationWarning: Deprecated since Python 3.4. Use importlib.util.find_spec() instead.
+  loader = importlib.find_loader(fullname, path)
+C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\gym\utils\seeding.py:96: DeprecationWarning: [33mWARN: Function `rng.seed(seed)` is marked as deprecated and will be removed in the future. Please use `rng, seed = gym.utils.seeding.np_random(seed)` to create a separate generator instead.
+  "Function `rng.seed(seed)` is marked as deprecated "
+agent.py:262: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return np.array(q_set)
+Traceback (most recent call last):
+  File "agent.py", line 331, in <module>
+    agent.train(3500,1500,log = True)
+  File "agent.py", line 85, in train
+    env.render()
+  File "C:\Users\Cliente\AppData\Local\Programs\Python\Python37\lib\site-packages\gym\core.py", line 66, in render
+    return render_func(self, *args, **kwargs)
+  File "C:\Users\Cliente\Documents\bolsa\ultimo funcional\MOparetoQlearning-baseline\deepseatreasure-pareto\deepst.py", line 165, in render
+    self.clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt
